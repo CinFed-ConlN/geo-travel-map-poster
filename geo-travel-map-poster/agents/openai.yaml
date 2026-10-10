@@ -1,0 +1,6 @@
+interface:
+  display_name: "定位旅行地图海报"
+  short_description: "优先读取照片坐标，自动定位拍摄地点，并用当地语言或指定语言制作地图旅行海报"
+  default_prompt: "使用 $geo-travel-map-poster，先提炼我的特殊要求并读取照片信息，优先采用已有经纬度，否则定位拍摄地点，再用当地语言或我指定的语言制作旅行地图海报。"
+policy:
+  allow_implicit_invocation: true
